@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
@@ -10,14 +10,14 @@
     <script type="text/javascript" src="javascripts/main.js"></script>
 
 </head>
-<body ng-app="firstApplication" ng-cloak>
+<body ng-app="firstApplication">
 <md-toolbar class="md-primary">
     <div class="md-toolbar-tools">
         <h2 class="md-flex">ILKA KARINI DJAJAKUSUMA - Future business informatics graduate</h2>
     </div>
 </md-toolbar>
 
-<md-tabs md-stretch-tabs class="md-primary">
+<md-tabs md-dynamic-height md-stretch-tabs class="md-primary">
     <md-tab>
         <md-tab-label>Objective</md-tab-label>
         <md-tab-body>
@@ -44,7 +44,7 @@
                     </md-card-title-text>
                 </md-card-title>
 
-                <md-card-content>
+                <md-card-content layout="column" layout-fill>
                     <p> April 2012 - Present <br>
                         Vienna University of Technology (AUSTRIA) <br>
                         Master Degree in Business Informatics <br>
@@ -68,6 +68,32 @@
             </md-card>
         </md-tab-body>
     </md-tab>
+
+    <md-tab>
+        <md-tab-label>Professional</md-tab-label>
+        <md-tab-body>
+                    <p> April 2012 - Present <br>
+                        Vienna University of Technology (AUSTRIA) <br>
+                        Master Degree in Business Informatics <br>
+                    </p>
+                    <p>
+                        October 2003 - March 2009 <br>
+                        Vienna University of Technology (AUSTRIA) <br>
+                        Bachelor Degree in Media and Computer Science (concentrate in Design) <br>
+                    </p>
+                    <p>
+                        2001 - 2003 <br>
+                        Swiss German University (INDONESIA) <br>
+                        Bachelor Degree in Information Technology (transfered after 3rd semester) <br>
+                    </p>
+                    <p>
+                        1998 - 2001 <br>
+                        McLean High School (Virginia, USA) <br>
+                        Graduated with Honors
+                    </p>
+        </md-tab-body>
+    </md-tab>
+
 </md-tabs>
 
 
